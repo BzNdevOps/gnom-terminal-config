@@ -1,0 +1,15 @@
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+background-color='#1C0F00'
+bold-color='#FF8C00'
+bold-color-same-as-fg=false
+cursor-background-color='#FF8C00'
+cursor-foreground-color='#1C0F00'
+font='Hack Nerd Font 12'
+foreground-color='#FFD7A0'
+highlight-background-color='#FF6000'
+highlight-foreground-color='#FFFFFF'
+palette=['#1C0F00', '#FF4500', '#D4A017', '#FF8C00', '#C86400', '#FF6347', '#E8A000', '#FFD7A0', '#4A2800', '#FF6B35', '#F5C842', '#FFA500', '#E07020', '#FF7F50', '#FFB347', '#FFF0D0']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
