@@ -17,7 +17,6 @@
 
 | Plugin | What it does |
 |---|---|
-| git | Git aliases and prompt info |
 | sudo | Double `Esc` to prepend sudo to last command |
 | progress | Progress bar for `cp`, `mv`, `dd`, etc. |
 | colored-man-pages | Colorized man pages |
@@ -56,6 +55,7 @@
 
 | Plugin | Reason removed |
 |---|---|
+| git | Not needed — using git CLI directly |
 | bashmarks | Redundant with zoxide |
 | tmux | Not used — using Zellij instead |
 | pyenv | Not in daily use, added startup overhead |
