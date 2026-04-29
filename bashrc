@@ -160,3 +160,4 @@ source "$OSH"/oh-my-bash.sh
 
 # zoxide smart cd
 eval "$(zoxide init bash)"
+export PATH="$HOME/.npm-global/bin:$PATH"
