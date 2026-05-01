@@ -1,15 +1,15 @@
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
-background-color='#1C0F00'
-bold-color='#FF8C00'
+background-color='#FBF1C7'
+bold-color='#076678'
 bold-color-same-as-fg=false
-cursor-background-color='#FF8C00'
-cursor-foreground-color='#1C0F00'
+cursor-background-color='#000000'
+cursor-foreground-color='#FBF1C7'
 font='Hack Nerd Font 12'
-foreground-color='#FFD7A0'
-highlight-background-color='#FF6000'
-highlight-foreground-color='#FFFFFF'
-palette=['#1C0F00', '#FF4500', '#D4A017', '#FF8C00', '#C86400', '#FF6347', '#E8A000', '#FFD7A0', '#4A2800', '#FF6B35', '#F5C842', '#FFA500', '#E07020', '#FF7F50', '#FFB347', '#FFF0D0']
+foreground-color='#000000'
+highlight-background-color='#D79921'
+highlight-foreground-color='#1D2021'
+palette=['#000000', '#CC241D', '#79740E', '#B57614', '#076678', '#8F3F71', '#427B58', '#D5C4A1', '#3C3836', '#9D0006', '#98971A', '#D79921', '#458588', '#B16286', '#689D6A', '#FBF1C7']
 scrollbar-policy='never'
 use-system-font=false
 use-theme-colors=false

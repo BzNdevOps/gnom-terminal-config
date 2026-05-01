@@ -1,0 +1,11 @@
+[Unit]
+Description=Run GNOME Terminal theme switcher regularly
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Persistent=true
+Unit=gnome-terminal-theme.service
+
+[Install]
+WantedBy=timers.target
