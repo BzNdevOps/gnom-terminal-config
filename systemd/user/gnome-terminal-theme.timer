@@ -2,7 +2,7 @@
 Description=Run GNOME Terminal theme switcher regularly
 
 [Timer]
-OnBootSec=1min
+OnStartupSec=30s
 OnUnitActiveSec=5min
 Persistent=true
 Unit=gnome-terminal-theme.service
