@@ -38,6 +38,10 @@
 |---|---|---|---|
 | fzf | 0.44.1 | apt | oh-my-bash plugin + `Ctrl+R` |
 | zoxide | 0.9.3 | apt | oh-my-bash plugin + `eval "$(zoxide init bash)"` in `.bashrc` |
+| bat | 0.24.0 | apt | `alias cat='batcat'`, `alias bat='batcat'` in `.bashrc` |
+| eza | 0.18.2 | apt | `alias ls='eza --icons'`, `alias ll='eza -la --icons'`, `alias lt='eza --tree --icons'` |
+| ripgrep | 14.1.0 | apt | `alias grep='rg'` in `.bashrc` |
+| tldr | 0.9.2 | apt | `tldr <command>` for quick usage examples |
 
 ## GNOME Shell Extensions (active)
 
@@ -68,7 +72,4 @@
 
 | Tool | What it adds |
 |---|---|
-| bat | `cat` with syntax highlighting |
-| eza | Modern `ls` with icons, colors, git status |
-| delta | Syntax-highlighted `git diff` |
-| starship | Faster, richer shell prompt |
+| starship | Faster, richer shell prompt (replaces Oh My Bash entirely) |

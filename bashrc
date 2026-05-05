@@ -161,3 +161,11 @@ source "$OSH"/oh-my-bash.sh
 # zoxide smart cd
 eval "$(zoxide init bash)"
 export PATH="$HOME/.npm-global/bin:$PATH"
+
+# modern replacements
+alias bat='batcat'
+alias cat='batcat'
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -la --icons --group-directories-first'
+alias lt='eza --tree --icons --group-directories-first'
+alias grep='rg'
