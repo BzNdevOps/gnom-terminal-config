@@ -32,6 +32,19 @@
 
 - general
 
+### Custom Aliases (bashrc)
+
+| Alias | Expands to | Purpose |
+|---|---|---|
+| `bat` / `cat` | `batcat` | Syntax-highlighted file viewer |
+| `ls` | `eza --icons --group-directories-first` | Modern directory listing |
+| `ll` | `eza -la --icons --group-directories-first` | Detailed listing |
+| `lt` | `eza --tree --icons --group-directories-first` | Tree view |
+| `grep` | `rg` | Fast file search |
+| `copy` | `wl-copy` | Pipe output to clipboard |
+| `paste` | `wl-paste` | Print clipboard to terminal |
+| `cdf` | `cd $(find . -type d \| fzf)` | Fuzzy folder jump |
+
 ## Standalone Productivity Tools
 
 | Tool | Version | How installed | Wired in |
@@ -41,7 +54,8 @@
 | bat | 0.24.0 | apt | `alias cat='batcat'`, `alias bat='batcat'` in `.bashrc` |
 | eza | 0.18.2 | apt | `alias ls='eza --icons'`, `alias ll='eza -la --icons'`, `alias lt='eza --tree --icons'` |
 | ripgrep | 14.1.0 | apt | `alias grep='rg'` in `.bashrc` |
-| tldr | 0.9.2 | apt | `tldr <command>` for quick usage examples |
+| tldr | latest | npm | `tldr <command>` for quick usage examples (apt version broken — use npm) |
+| wl-clipboard | 2.2.1 | apt | `alias copy='wl-copy'`, `alias paste='wl-paste'` — pipe output to clipboard |
 
 ## GNOME Shell Extensions (active)
 

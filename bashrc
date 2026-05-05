@@ -169,3 +169,10 @@ alias ls='eza --icons --group-directories-first'
 alias ll='eza -la --icons --group-directories-first'
 alias lt='eza --tree --icons --group-directories-first'
 alias grep='rg'
+
+# clipboard (Wayland)
+alias copy='wl-copy'
+alias paste='wl-paste'
+
+# smart folder browse — fuzzy pick any subdir
+alias cdf='cd $(find . -type d 2>/dev/null | fzf)'
